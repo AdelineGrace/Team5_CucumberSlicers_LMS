@@ -157,5 +157,10 @@
     <scope>provided</scope>
 </dependency>
 
- </dependencies>  
+  	<dependency>
+  		<groupId>CucumberPOMSeries</groupId>
+  		<artifactId>CucumberPOMSeries</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>  
 </project>
