@@ -4,10 +4,7 @@ package ApplicationHooks;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 
-
-
 import java.util.Properties;
-
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.OutputType;
@@ -55,20 +52,6 @@ public static ConfigReader configReader;
 	{
 		driver.quit();
 	}
-//	@After 
-//	public static void tearDown (Scenario scenario)
-//	{
-//		if(scenario.isFailed())
-//		{
-//			// take screenshot
-//			
-//			String screenshot = scenario.getName().replaceAll(" ", "_");
-//			Loggerload.error("Steps Failed , Taking Screenshot");
-//			final byte [] sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-//			scenario.attach(sourcePath,"image/png",screenshot);
-//			Allure.attachment("screenshot",new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-//			
-//					}
-//	}
+
 
 }
