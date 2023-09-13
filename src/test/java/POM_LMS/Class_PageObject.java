@@ -1,11 +1,18 @@
 package POM_LMS;
+import java.text.DateFormat;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Collections;
+import java.util.Date;
 import java.util.List;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.devtools.v112.page.Page;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -53,7 +60,7 @@ public class Class_PageObject {
 	By CheckBox2 = By.xpath("//*[@id=’checkbox’]/tbody/tr[3]/td[1]");
 	By CheckBox3 = By.xpath("//*[@id=’checkbox’]/tbody/tr[4]/td[1]");
 	By NumberEntry = By.xpath("//form[@id='entry_form']");
-	By Pagination =  By.xpath("//form[@id='control']");
+	By Pagination =  By.xpath("//div[@id='reportPagination_wrapper']//a");
 	By NoofClasses = By.xpath("//a[text()='number of classes']");
 	By SearchResults = By.xpath("//a[text()='result']");
 	By DataTable = By.xpath("//*[@id=’customers’]/tbody/tr/td");
@@ -74,9 +81,21 @@ public class Class_PageObject {
 	By NotesTextBox = By.xpath("//input[@class='Notes']");
 	By RecordingTextBox = By.xpath("//input[@class='Recording']");
 	By StaffIdTextBox = By.xpath("//input[@class='Staff id']");
-
-
-	
+    By DatePickerRightArrow = By.cssSelector(".date-picker .right-arrow");
+    By DatePickerLeftArrow = By.cssSelector(".date-picker .left-arrow");
+    By DatePickerPreviousMonth = By.cssSelector(".date-picker .month");
+    By DatePickerNextMonth = By.cssSelector(".date-picker .month");
+    By Yes = By.xpath("//button[@type='button'][text()='yes']");
+    By No = By.xpath("//button[@type='button'][text()='no']");
+    By RightArrowPagination = By.xpath("//div[@class='pagination']//a[@class='right']");
+    By LeftArrowPagination = By.xpath("//div[@class='pagination']//a[@class='left']");
+	By Student = By.xpath("//button[@type='button'][text()='Student']");	
+	By Program = By.xpath("//button[@type='button'][text()='Program']");	
+	By Batch = By.xpath("//button[@type='button'][text()='Batch']");	
+	By User = By.xpath("//button[@type='button'][text()='User']");	
+	By Assignment = By.xpath("//button[@type='button'][text()='Assignment']");	
+	By Attendance = By.xpath("//button[@type='button'][text()='Attendance']");	
+	By Logout = By.xpath("//button[@type='button'][text()='Logout']");	
 			
 	 WebDriver driver;
 		
@@ -357,6 +376,15 @@ public class Class_PageObject {
 		        return options;
 				
 			}
+		 public List<WebElement> StaffIdDropDownText()
+			{
+			 Select dropdown = new Select(driver.findElement(StaffDropDown));
+
+		         List<WebElement> options = dropdown.getOptions();
+
+		        return options;
+				
+			}
 		 public  String DataTableBatchId()
 			{
 			String batches = driver.findElement(BatchId).getText();
@@ -464,6 +492,410 @@ public class Class_PageObject {
 					Thread.sleep(1000);
 				}
 				}
+			 public String ClassDateTextBox() throws InterruptedException
+				{
+					String datecontent= driver.findElement(ClassDateTextBox).getText();
+					return datecontent;
+										
+				}
+			 public void DatePickerRightArrow() throws InterruptedException
+				{
+					driver.findElement(DatePickerRightArrow).click();
+				}
+			public void DatePickerLeftArrow() throws InterruptedException
+				{
+					driver.findElement(DatePickerLeftArrow).click();
+				}
+			 public String Date() throws InterruptedException, ParseException
+				{
+				 String datecontent= driver.findElement(ClassDateTextBox).getText();
+					SimpleDateFormat sdf = new SimpleDateFormat("MM-dd-yyyy");
+					Date parsedDate = sdf.parse(datecontent);
+			        String formattedDate = sdf.format(parsedDate);
+					return formattedDate;
+										
+				}
+			 public String Month() throws InterruptedException, ParseException
+				{
+				 String datecontent= driver.findElement(ClassDateTextBox).getText();
+					SimpleDateFormat sdf = new SimpleDateFormat("MM-dd-yyyy");
+					Date parsedDate = sdf.parse(datecontent);
+					 SimpleDateFormat monthformat = new SimpleDateFormat("MM");
+						String currentMonth = monthformat.format(parsedDate);
+					return currentMonth;
+										
+				}
 			 
+			 public String DatePreviousMonth() throws InterruptedException, ParseException
+				{
+				 String datecontent= driver.findElement(ClassDateTextBox).getText();
+					SimpleDateFormat sdf = new SimpleDateFormat("MM-dd-yyyy");
+					Date parsedDate = sdf.parse(datecontent);
+				  SimpleDateFormat monthformat = new SimpleDateFormat("MM");
+							String currentMonth = monthformat.format(parsedDate);
+							int monthInt = Integer.parseInt(currentMonth);
+							if (monthInt > 1) {
+					            monthInt--;
+					        } else {
+					            monthInt = 12; 
+					        }
+						    String previousMonth = String.format("%02d", monthInt);
+								return previousMonth;		
+				}
 			 
-}
+			 public String DateNextMonth() throws InterruptedException, ParseException
+				{
+				 String datecontent= driver.findElement(ClassDateTextBox).getText();
+					SimpleDateFormat sdf = new SimpleDateFormat("MM-dd-yyyy");
+					Date parsedDate = sdf.parse(datecontent);
+				  SimpleDateFormat monthformat = new SimpleDateFormat("MM");
+							String currentMonth = monthformat.format(parsedDate);
+							int monthInt = Integer.parseInt(currentMonth);
+							if (monthInt < 12) {
+						        monthInt++;
+						    } else {
+						        monthInt = 1;			    }
+ 					    String nextMonth = String.format("%02d", monthInt);
+								return nextMonth;		
+				}
+			 public void DatePickerClick() throws InterruptedException
+				{
+					driver.findElement(Calender).click();
+				}
+			 public String CurrentDate() throws InterruptedException
+				{
+				 DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy ");
+				 	 Date date = new Date();
+					 String date1= dateFormat.format(date);
+					 return date1;
+				}
+			 public String DatePickerdate() throws InterruptedException
+				{  
+					String date = driver.findElement(Calender).getText();
+					return date;
+				}
+			 public void FutureDate() throws InterruptedException
+				{
+				 Calendar calendar = Calendar.getInstance();
+				 calendar.add(Calendar.DAY_OF_YEAR, 10);
+				 calendar.set(Calendar.HOUR_OF_DAY, 0);
+				    calendar.set(Calendar.MINUTE, 0);
+				    calendar.set(Calendar.SECOND, 0);
+				    calendar.set(Calendar.MILLISECOND, 0);
+				 Date futureDate = calendar.getTime();
+				 SimpleDateFormat dateFormat = new SimpleDateFormat("MM-dd-yyyy"); // Adjust format as needed
+				    String futureDateStr = dateFormat.format(futureDate);
+				    Select sc = new Select(driver.findElement(Calender));
+				    sc.selectByValue(futureDateStr);
+				 
+				 		
+				}
+			 public void Click_Cancel() throws InterruptedException
+				{
+					 driver.findElement(Cancel).click();
+				}
+			 public void Click_Edit() throws InterruptedException
+				{
+					 driver.findElement(EditClass).click();
+					
+				}
+			 public void Click_EditA() throws InterruptedException
+				{
+					 driver.findElement(EditA).click();
+					
+				}
+			 public String ClassNoContents() throws InterruptedException
+				{
+				WebElement classnotextbox =  driver.findElement(BatchIdTextBox);
+				String textboxcontents = classnotextbox.getAttribute("value");
+						 return textboxcontents;
+							
+				}
+			 public String DescriptionContents() throws InterruptedException
+				{
+				WebElement decriptiontextbox =  driver.findElement(BatchIdTextBox);
+				String textboxcontents = decriptiontextbox.getAttribute("value");
+						 return textboxcontents;
+							
+				}
+			 public String ClassTopicContents() throws InterruptedException
+				{
+				WebElement classtopictextbox =  driver.findElement(BatchIdTextBox);
+				String textboxcontents = classtopictextbox.getAttribute("value");
+						 return textboxcontents;
+							
+				}
+			 public String CommentsContents() throws InterruptedException
+				{
+				WebElement commentstextbox =  driver.findElement(BatchIdTextBox);
+				String textboxcontents = commentstextbox.getAttribute("value");
+						 return textboxcontents;
+							
+				}
+			 public String NotesContents() throws InterruptedException
+				{
+				WebElement notestextbox =  driver.findElement(BatchIdTextBox);
+				String textboxcontents = notestextbox.getAttribute("value");
+						 return textboxcontents;
+							
+				}
+			 public String RecordingContents() throws InterruptedException
+				{
+				WebElement recordingtextbox =  driver.findElement(BatchIdTextBox);
+				String textboxcontents = recordingtextbox.getAttribute("value");
+						 return textboxcontents;
+							
+				}
+			 public void Click_Delete() throws InterruptedException
+				{
+					 driver.findElement(DeleteA).click();
+				}
+			 public Alert DeleteAlert() throws InterruptedException
+				{
+					 Alert alert = driver.switchTo().alert();
+					 return alert;
+				}
+			 public WebElement Yes() throws InterruptedException
+				{
+					 return driver.findElement(Yes);
+				}
+			 public WebElement No() throws InterruptedException
+				{
+					 return driver.findElement(No);
+				}
+			 public void Click_Yes() throws InterruptedException
+				{
+					driver.findElement(Yes).click();
+				}
+			 public void Click_No() throws InterruptedException
+				{
+					driver.findElement(No).click();
+				}
+			 public void Click_CheckBoxHeader() throws InterruptedException
+				{
+					driver.findElement(CheckBoxHeader).click();
+				}
+			 public void Click_DeleteHeader() throws InterruptedException
+				{
+					driver.findElement(DeleteAll).click();
+				}
+			 public void Click_CheckBoxA() throws InterruptedException
+				{
+					driver.findElement(CheckBox1).click();
+				}
+			 public void Click_DeleteA() throws InterruptedException
+				{
+					driver.findElement(DeleteA).click();
+				}
+			 public void Click_CheckBoxB() throws InterruptedException
+				{
+					driver.findElement(CheckBox2).click();
+				}
+			 public void Click_CheckBoxC() throws InterruptedException
+				{
+					driver.findElement(CheckBox3).click();
+				}
+			 public void Click_BatchIdSort() throws InterruptedException
+				{
+					driver.findElement(BatchIdSort).click();
+				}
+			 public List<String> DataTableDescendingSort() throws InterruptedException
+				{
+				 							
+				    List<WebElement> datatablerowelements = driver.findElements(DataTable);
+				      List<String> BatchIdList = new ArrayList<>();
+				    for (WebElement row : datatablerowelements) {
+				        WebElement batchIDCell = row.findElement(BatchId);
+				        String batchID = batchIDCell.getText();
+				        BatchIdList.add(batchID);
+				    }
+
+				    List<String> tablesortedlist = new ArrayList<>(BatchIdList);
+				    Collections.sort(tablesortedlist, Collections.reverseOrder());
+		   				    
+			     return tablesortedlist;
+			    		 
+				}
+			 public List<String> BatchIdSortedList() throws InterruptedException
+				{
+				 							
+				    List<WebElement> datatablerowelements = driver.findElements(DataTable);
+				      List<String> BatchIdList = new ArrayList<>();
+				    for (WebElement row : datatablerowelements) {
+				        WebElement batchIDCell = row.findElement(BatchId);
+				        String batchID = batchIDCell.getText();
+				        BatchIdList.add(batchID);
+				    }
+
+				    	   				    
+			     return BatchIdList ;
+			    		 
+				}
+			 public List<String> DataTableAscendingSort() throws InterruptedException
+				{
+				 							
+				    List<WebElement> datatablerowelements = driver.findElements(DataTable);
+				      List<String> BatchIdList = new ArrayList<>();
+				    for (WebElement row : datatablerowelements) {
+				        WebElement batchIDCell = row.findElement(BatchId);
+				        String batchID = batchIDCell.getText();
+				        BatchIdList.add(batchID);
+				    }
+
+				    List<String> tablesortedlist = new ArrayList<>(BatchIdList);
+				    Collections.sort(tablesortedlist);
+		   				    
+			     return tablesortedlist;
+			    		 
+				}
+			 public WebElement PageNo1() throws InterruptedException
+				{
+			        List<WebElement> allPages = (List<WebElement>) driver.findElement(Pagination);
+			      WebElement page1 = null;
+			        for(WebElement page : allPages)
+			        {
+			        	if (page.getText().equals("1")) {
+			        		page1 = page;
+			        	}
+			        		
+			        }
+			        return page1;
+				}
+			 public WebElement PageNo2() throws InterruptedException
+				{
+			        List<WebElement> allPages = (List<WebElement>) driver.findElement(Pagination);
+			      WebElement page2 = null;
+			        for(WebElement page : allPages)
+			        {
+			        	if (page.getText().equals("2")) {
+			        		page2 = page;
+			        	}
+			        		
+			        }
+			        return page2;
+				}
+			 public boolean LeftArrowPagination() throws InterruptedException
+				{
+				 List<WebElement> datatablerowelements = driver.findElements(DataTable);
+				    WebElement leftarrow=null;
+                      if (datatablerowelements.size()> 5)
+                      {
+                     	  leftarrow  = driver.findElement(LeftArrowPagination);
+                      }
+                      return leftarrow!= null && !leftarrow.isDisplayed();
+				}
+			 public boolean LeftArrowPage2() throws InterruptedException
+				{
+				 List<WebElement> datatablerowelements = driver.findElements(DataTable);
+				    WebElement leftarrow=null;
+                
+                  	  leftarrow  = driver.findElement(LeftArrowPagination);
+                  
+                   return leftarrow!= null && leftarrow.isDisplayed();
+				}
+			 public boolean RightArrowPagination() throws InterruptedException
+				{
+				    List<WebElement> datatablerowelements = driver.findElements(DataTable);
+				    WebElement rightarrow=null;
+                         if (datatablerowelements.size()> 5)
+                         {
+                        	  rightarrow  = driver.findElement(RightArrowPagination);
+                         }
+                         return rightarrow!= null && rightarrow.isEnabled();
+				}
+			 public boolean RightArrowPage2() throws InterruptedException
+				{
+				    List<WebElement> datatablerowelements = driver.findElements(DataTable);
+				    WebElement rightarrow=null;
+                      if (datatablerowelements.size()> 10)
+                      {
+                     	  rightarrow  = driver.findElement(RightArrowPagination);
+                      }
+                      return rightarrow!= null && rightarrow.isEnabled();
+				}
+			 public boolean RightArrowPage2Disable() throws InterruptedException
+				{
+				    List<WebElement> datatablerowelements = driver.findElements(DataTable);
+				    WebElement rightarrow=null;
+                   if (datatablerowelements.size()< 10)
+                   {
+                  	  rightarrow  = driver.findElement(RightArrowPagination);
+                   }
+                   return rightarrow!= null && !rightarrow.isEnabled();
+				}
+			 public boolean PaginationEnable() throws InterruptedException
+				{
+				    List<WebElement> datatablerowelements = driver.findElements(DataTable);
+				    WebElement pagination=null;
+                if (datatablerowelements.size()> 5)
+                {
+               	  pagination  = driver.findElement(Pagination);
+                }
+                return pagination.isEnabled();
+				}
+			 public boolean PaginationDisable() throws InterruptedException
+				{
+				    List<WebElement> datatablerowelements = driver.findElements(DataTable);
+				    WebElement pagination=null;
+             if (datatablerowelements.size()< 5)
+             {
+            	  pagination  = driver.findElement(Pagination);
+             }
+             return !pagination.isEnabled();
+				}
+			 public WebElement NextPageEnable() throws InterruptedException
+				{	
+                   WebElement rightarrow  = driver.findElement(RightArrowPagination);
+                   int noofentries= 6;
+                   if (noofentries > 5 && rightarrow.isEnabled()) {
+                       return rightarrow;
+                   } else {
+                       return null; 
+                   }
+				}
+                   public WebElement NextPageDisable() throws InterruptedException
+   				{	
+                      WebElement rightarrow  = driver.findElement(RightArrowPagination);
+                      int noofentries= 4;
+                      if (noofentries <= 5 && !rightarrow.isEnabled()) {
+                          return rightarrow;
+                      } else {
+                          return null; 
+                      }
+			 
+				} 
+                   public void Click_Student() throws InterruptedException
+           		{
+           			driver.findElement(Student).click();
+           		}
+                   public void Click_Program() throws InterruptedException
+        		{
+        			driver.findElement(Program).click();
+        		}
+                   public void Click_Batch() throws InterruptedException
+        		{
+        			driver.findElement(Batch).click();
+        		}
+                   public void Click_User() throws InterruptedException
+        		{
+        			driver.findElement(User).click();
+        		}
+                   public void Click_Assignment() throws InterruptedException
+        		{
+        			driver.findElement(Assignment).click();
+        			Thread.sleep(1000);
+        		}
+                   public void Click_Attendance() throws InterruptedException
+        		{
+        			driver.findElement(Attendance).click();
+        			Thread.sleep(1000);
+        		}
+        		public void Click_Logout() throws InterruptedException
+        		{
+        			driver.findElement(Logout).click();
+        			Thread.sleep(1000);
+        		}
+	}
+			    		 
+				
+

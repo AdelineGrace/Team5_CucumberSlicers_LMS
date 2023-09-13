@@ -48,35 +48,53 @@ Background: Admin logged into LMS portal and clicks class button on the navigati
 | SheetName | RowNumber |
 | Class     |   1       |
   #43
-  Scenario: 	Validate admin able to add new class missing No of Class	
+  Scenario Outline: 	Validate admin able to add new class missing No of Class	
   Given 	Admin is in  class detail popup window	
-  When Admin enters data missing value in No of class and clicks save button (Batch ID ,Class Date, Staff Id, )	
+  When Admin enters data missing value in No of class and clicks save button Batch ID ,Class Date, Staff Id from "<SheetName>" and <RowNumber>	
   Then No of classes is missing
+  Examples:
+| SheetName | RowNumber |
+| Class     |   1       |
   #44
-  Scenario: Validate admin able to add new class missing Class Date	
+  Scenario Outline: Validate admin able to add new class missing Class Date	
   Given Admin is in  class detail popup window	
-  When Admin enters data missing value in  class date and clicks save button (Batch ID , No of Classes, Staff Id, )	
+  When Admin enters data missing value in  class date and clicks save button (Batch ID , No of Classes, Staff Id, )from "<SheetName>" and <RowNumber>		
   Then class date is missing
+  Examples:
+| SheetName | RowNumber |
+| Class     |   1       |
   #45
-  Scenario: Validate admin able to add new class missing staff id	
+  Scenario Outline: Validate admin able to add new class missing staff id	
   Given Admin is in  class detail popup window
-  When 	Admin enters data missing value in staff id and clicks save button (Batch ID , No of Classes, Class Date )	
+  When 	Admin enters data missing value in staff id and clicks save button (Batch ID , No of Classes, Class Date )from "<SheetName>" and <RowNumber>	
   Then staff id is missing
+  Examples:
+| SheetName | RowNumber |
+| Class     |   1       |
   #46
-  Scenario: 	Validate  admin able to add new class passing past date 	
+  Scenario Outline: 	Validate  admin able to add new class passing past date 	
   Given Admin is in  class detail popup window	
-  When Admin enters passed date in the class date field and clicks save button ( Batch ID , No of Classes, Class Date, Staff Id)
+  When Admin enters passed date in the class date field and clicks save button ( Batch ID , No of Classes, Class Date, Staff Id)from "<SheetName>" and <RowNumber>
   Then 	class cannot be  created for the passed date
+   Examples:
+| SheetName | RowNumber |
+| Class     |   1       |
   #47
-  Scenario: Validate date picker
+  Scenario Outline: Validate date picker
   Given Admin is in  class detail popup window	
-  When Admin clicks date from date picker
+  When Admin clicks date from date picker from "<SheetName>" and <RowNumber>
   Then 	selected date should be their in class date text box
+   Examples:
+| SheetName | RowNumber |
+| Class     |   1       |
   #48 
-  Scenario: Validate date picker should be correct format	
+  Scenario Outline: Validate date picker should be correct format	
   Given Admin is in  class detail popup window	
-  When Admin clicks date from date picker
+  When Admin clicks date from date picker from "<SheetName>" and <RowNumber>
   Then 	selected date should be in  mm/dd/yyyy format
+   Examples:
+| SheetName | RowNumber |
+| Class     |   1       |
   #49
   Scenario: Validate right arrow in data picker to navigate to next month
   Given Admin is in  class detail popup window	
@@ -89,25 +107,30 @@ Background: Admin logged into LMS portal and clicks class button on the navigati
   Then previous month calender should visible
   #51
   Scenario: 	Validate current date is highlighted in the date picker	
-  Given Admin is in class details popup window	
+  Given Admin is in  class detail popup window	
   When Admin clicks date picker button
   Then 	Admin should see current date is highled in the date picker
   #52
   Scenario: Validate selected date is highlighted in the date picker
-  Given 	Admin is in class details popup window
+  Given 	Admin is in  class detail popup window
   When 	Admin clicks date picker button and selects future date
   Then 	Admin should see selected date is highled in the date picker
   #53
-  Scenario: Validate cancel button function in class details popup window	
+  Scenario Outline: Validate cancel button function in class details popup window	
   Given Admin is in  class detail popup window	
   When Admin clicks Cancel button without entering values in the fields	
-  Then Admin should land on Manage Class page
+  Then Admin should land on Manage Class page from "<SheetName>" and <RowNumber>
+  Examples:
+| SheetName | RowNumber |
+| Class     |   1       |
   #54
-  Scenario: Validate cancel button function in class details popup window with values in field
+  Scenario Outline: Validate cancel button function in class details popup window with values in field
   Given 	Admin is in  class detail popup window	
-  When Admin clicks Cancel button entering values in the fields	
-  Then Admin should land on Manage Class Page and validate new class is not created in the data table
- 
+  When Admin clicks Cancel button entering values in the fields	"<SheetName>" and <RowNumber>
+  Then Admin should land on Manage Class Page and validate new class is not created in the data table from "<SheetName>" and <RowNumber>
+  Examples:
+| SheetName | RowNumber |
+| Class     |   1       |
   
   
   

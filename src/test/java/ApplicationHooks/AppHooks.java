@@ -55,20 +55,20 @@ public static ConfigReader configReader;
 	{
 		driver.quit();
 	}
-	@After 
-	public static void tearDown (Scenario scenario)
-	{
-		if(scenario.isFailed())
-		{
-			// take screenshot
-			
-			String screenshot = scenario.getName().replaceAll(" ", "_");
-			Loggerload.error("Steps Failed , Taking Screenshot");
-			final byte [] sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-			scenario.attach(sourcePath,"image/png",screenshot);
-			Allure.attachment("screenshot",new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-			
-					}
-	}
+//	@After 
+//	public static void tearDown (Scenario scenario)
+//	{
+//		if(scenario.isFailed())
+//		{
+//			// take screenshot
+//			
+//			String screenshot = scenario.getName().replaceAll(" ", "_");
+//			Loggerload.error("Steps Failed , Taking Screenshot");
+//			final byte [] sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+//			scenario.attach(sourcePath,"image/png",screenshot);
+//			Allure.attachment("screenshot",new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+//			
+//					}
+//	}
 
 }
