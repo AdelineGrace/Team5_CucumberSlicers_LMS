@@ -4,22 +4,33 @@ Background: Logged on the portal as Admin
           Admin is on dashboard page after Login and clicks Program on the navigation bar
 
 #1
-Scenario: Search Program By Name
+Scenario Outline: Search Program By Name
 Given Admin is on Manage Program Page
 When Admin enters <Program name phrase> into search box.
-Then Admin should see the Programs displayed based on the Program Name
+Then Admin should see the Programs displayed based on the Program Name on "<SheetName>" and <RowNumber>
+Examples:
+|SheetName|RowNumber|
+|Program|2|
 
 #2
-Scenario: Search Program By Description
+Scenario Outline: Search Program By Description
 Given Admin is on Manage Program Page
 When Admin enters <Program description phrase> into search box.
-Then Admin should see the Programs displayed based on the Program Description
+Then Admin should see the Programs displayed based on the Program Description on "<SheetName>" and <RowNumber>
+Examples:
+|SheetName|RowNumber|
+|Program|2|
+
 
 #3
-Scenario: Search Program By Status
+Scenario Outline: Search Program By Status
 Given Admin is on Manage Program Page
 When Admin enters <Program status phrase> into search box.
-Then Admin should see the Programs displayed based on the Program Status
+Then Admin should see the Programs displayed based on the Program Status on "<SheetName>" and <RowNumber>
+Examples:
+|SheetName|RowNumber|
+|Program|2|
+
 
 #4
 Scenario: Validating the Search with unrelated keyword

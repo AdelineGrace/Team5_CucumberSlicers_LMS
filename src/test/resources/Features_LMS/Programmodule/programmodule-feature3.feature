@@ -5,22 +5,31 @@ Admin is on Manage Program Page after clicks Program on the navigation bar
               
 
 #1
- Scenario: Empty form submission
+ Scenario Outline: Empty form submission
  Given Admin is on "Program Details" Popup window
  When Admin clicks <Save>button without entering any data
- Then Admin gets a Error message alert 
+ Then Admin gets a Error message alert as "<SheetName>" and <RowNumber>
+ Examples:
+ |SheetName|RowNumber|
+ |Program|2|
  
  #2
- Scenario: Enter only Program Name
+ Scenario Outline: Enter only Program Name
  Given Admin is on "Program Details" Popup window
- When Admin enters only<Program Name> in text box and clicks Save button
+ When Admin enters only<Program Name> in text box from "<SheetName>" <RowNumber> and clicks Save button
  Then Admin gets a message alert 'Description is required'
+ Examples:
+ |SheetName|RowNumber|
+ |Program|2|
  
  #3
- Scenario: Enter only Program Description
+ Scenario Outline: Enter only Program Description
  Given Admin is on "Program Details" Popup window
- When Admin enters only<Program description> in text box and clicks Save button
+ When Admin enters only<Program description> in text box from "<SheetName>" <RowNumber> and clicks Save button
  Then Admin gets a message alert "Name is required"
+ Examples:
+ |SheetName|RowNumber|
+ |Program|2|
  
  #4
  Scenario: Select Status only
@@ -28,11 +37,16 @@ Admin is on Manage Program Page after clicks Program on the navigation bar
  When Admin selects only Status and clicks Save button
  Then Admin gets a message alert "Name and Description required"
  
+ 
+ 
  #5
- Scenario: Validate invalid values on the text column
+ Scenario Outline: Validate invalid values on the text column
  Given Admin is on "Program Details" Popup window
- When Admin enters only numbers or special char in name and desc column
+ When Admin enters only numbers or special char in name and desc column from "<SheetName>" <RowNumber>
  Then Admin gets a Error message alert 
+ Examples:
+ |SheetName|RowNumber|
+ |Program|2|
  
  #6
  Scenario: Validate Cancel/Close(X) icon on Program Details form
