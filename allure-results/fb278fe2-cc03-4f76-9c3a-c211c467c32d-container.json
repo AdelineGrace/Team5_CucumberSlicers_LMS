@@ -1,0 +1,1 @@
+{"uuid":"fb278fe2-cc03-4f76-9c3a-c211c467c32d","name":"Scenario Outline: Validate admin able to add new class with invalid data in mandatory fields","children":["93e79eec-4bba-405e-b370-b6ce3caf6bfe"],"befores":[],"afters":[],"start":1694646924386,"stop":1694646924405}

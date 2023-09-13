@@ -21,6 +21,22 @@ import java.util.Properties;
 		
 		return prop;
 	}
+	public static String getStudentTitle() throws IOException
+	   {
+		   return init_prop().getProperty("expectedTitle");
+	   }
+	public static String getLMSTitle() throws IOException
+	   {
+		   return init_prop().getProperty("expectedTitle");
+	   }
+	public static String getStudentName() throws IOException
+	   {
+		   return init_prop().getProperty("expectedStudentname");
+	   }
+	public static String getBatchId() throws IOException
+	   {
+		   return init_prop().getProperty("expectedbatchname");
+	   }
 	public static String getDashboardURL() throws IOException
 	   {
 		   return init_prop().getProperty("dashboardpage");

@@ -37,21 +37,12 @@ import static Utilities.ConfigReader.getAssignmentURL;
 import static Utilities.ConfigReader.getAttendanceURL;
 import static Utilities.ConfigReader.getLoginURL;
 import static Utilities.ConfigReader.getUserURL;
-
-
-
 import java.util.Collections;
 import java.util.Date;
 import static Utilities.ConfigReader.DeleteSuccessMessage;
-
-
-
-
-
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.List;
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
