@@ -46,6 +46,11 @@ public class Program_PageObject {
 	By programNameDesc = By.xpath("//*[@id=’program name’]/tbody/tr[1]/td[2]");
 	By programDescriptionAsce = By.xpath("//*[@id=’program Description’]/tbody/tr[1]/td[1]");
 	By programDescriptionDesc = By.xpath("//*[@id=’program Description’]/tbody/tr[1]/td[2]");
+	By programStatusAsce = By.xpath("//*[@id=’program Status’]/tbody/tr[1]/td[1]");
+	By programStatusDesc = By.xpath("//*[@id=’program Status’]/tbody/tr[1]/td[2]");
+	By programNameElement = By.xpath("//td[@class='program-name']");
+	By programDescriptionElement = By.xpath("//td[@class='program-description']");
+	By programStatusElement = By.xpath("//td[@class='program-status']");
 	By Errormsg = By.xpath("//a[text()='Error msg']");
 	By ProgramNameTextBox = By.xpath("//*[@id=’Textbox’]/tbody/tr[1]/td[1]");
 	By ProgramDescriptionTextBox = By.xpath("//*[@id=’Textbox’]/tbody/tr[1]/td[2]");
@@ -329,28 +334,108 @@ public void programDescriptionTextBox(List<String> programdescription) throws In
  public void clickProgramDescriptionAsec() {
 	 driver.findElement(programDescriptionAsce).click();
  }
+ public void clickProgramStatusDesc() {
+	 driver.findElement(programStatusDesc).click();
+ }
+ public void clickProgramStatusAsec() {
+	 driver.findElement(programStatusAsce).click();
+ }
  
- public List<String> DataTableDescendingSort() throws InterruptedException
+ public void programNameAscendingSort() 
 	{
-	 							
-	    List<WebElement> datatablerowelements = driver.findElements(DataTable);
-	      List<String> programNameList = new ArrayList<>();
-	    for (WebElement row : datatablerowelements) {
-	        WebElement programCell = row.findElement(program_name);
-	        String programName = programCell.getText();
-	        programNameList.add(programName);
-	    }
+	 WebElement table = driver.findElement(DataTable);
+	 
+	 List<WebElement> programNameElements = table.findElements(programNameElement);
+	 List<String> programNames = new ArrayList<>();
+     for (WebElement element : programNameElements) {
+         programNames.add(element.getText());
+     }
 
-	    List<String> tablesortedlist = new ArrayList<>(programNameList);
-	    Collections.sort(tablesortedlist, Collections.reverseOrder());
-			    
-  return tablesortedlist;
- 		 
-	}
+     //sorted copy of the program names list
+     List<String> sortedProgramNames = new ArrayList<>(programNames);
+     Collections.sort(sortedProgramNames);
+	 
+     Assert.assertEquals(programNames, sortedProgramNames, "Program names should be sorted in ascending order.");
+	 
+	 }
  
+      public void programNameDescendingSort() {
+      WebElement table = driver.findElement(DataTable);
+	 
+	 List<WebElement> programNameElements = table.findElements(programNameElement);
+	 List<String> programNames = new ArrayList<>();
+     for (WebElement element : programNameElements) {
+         programNames.add(element.getText());
+     }
+      List<String> sortedProgramNamesDescending = new ArrayList<>(programNames);
+     Collections.sort(sortedProgramNamesDescending, Collections.reverseOrder());
+
+     Assert.assertEquals(programNames, sortedProgramNamesDescending, "Program names should be sorted in descending order.");
+     
+	 }
+      public void programDescriptionDescendingSort() {
+          WebElement table = driver.findElement(DataTable);
+    	 
+    	 List<WebElement> programDescriptionElements = table.findElements(programDescriptionElement);
+    	 List<String> programDescription = new ArrayList<>();
+         for (WebElement element : programDescriptionElements) {
+             programDescription.add(element.getText());
+         }
+          List<String> sortedProgramDescriptionDescending = new ArrayList<>(programDescription);
+         Collections.sort(sortedProgramDescriptionDescending, Collections.reverseOrder());
+
+         Assert.assertEquals(programDescription, sortedProgramDescriptionDescending, "Program Description should be sorted in descending order.");
+         
+    	 }
+      public void programStatusDescendingSort() {
+          WebElement table = driver.findElement(DataTable);
+    	 
+    	 List<WebElement> programStatusElements = table.findElements(programStatusElement);
+    	 List<String> programStatus = new ArrayList<>();
+         for (WebElement element : programStatusElements) {
+             programStatus.add(element.getText());
+         }
+          List<String> sortedProgramStatusDescending = new ArrayList<>(programStatus);
+         Collections.sort(sortedProgramStatusDescending, Collections.reverseOrder());
+
+         Assert.assertEquals(programStatus, sortedProgramStatusDescending, "Program Status should be sorted in descending order.");
+         
+    	 }
+	  public void programDescriptionAscendingSort() 
+	{
+	 WebElement table = driver.findElement(DataTable);
+	 
+	 List<WebElement> programDescriptionElements = table.findElements(programDescriptionElement);
+	 List<String> programDescription = new ArrayList<>();
+  for (WebElement element : programDescriptionElements) {
+      programDescription.add(element.getText());
+  }
+
+  //sorted copy of the program description list
+  List<String> sortedProgramDescription = new ArrayList<>(programDescription);
+  Collections.sort(sortedProgramDescription);
+	 
+  Assert.assertEquals(programDescription, sortedProgramDescription, "Program Description should be sorted in ascending order.");
+	 
+	 }
  
- 
- 
+ public void programStatusAscendingSort() 
+	{
+	 WebElement table = driver.findElement(DataTable);
+	 
+	 List<WebElement> programStatusElements = table.findElements(programStatusElement);
+	 List<String> programStatus = new ArrayList<>();
+  for (WebElement element : programStatusElements) {
+      programStatus.add(element.getText());
+  }
+
+  //sorted copy of the program description list
+  List<String> sortedProgramStatus = new ArrayList<>(programStatus);
+  Collections.sort(sortedProgramStatus);
+	 
+  Assert.assertEquals(programStatus, sortedProgramStatus, "Program Status should be sorted in ascending order.");
+	 
+	 }
  
  
  

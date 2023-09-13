@@ -695,21 +695,21 @@ public void admin_clicks_the_sort_icon_of_program_name_column() {
 
 @Then("The data get sorted on the table based on the program name column values in ascending order")
 public void the_data_get_sorted_on_the_table_based_on_the_program_name_column_values_in_ascending_order() {
-             programpage.clickProgramDescriptionAsec();
-             
+             programpage.programNameAscendingSort();
+             Loggerload.info("Program name is in Ascending order");
 }
 
 @Given("The data is in the ascending order on the table based on Program Name column")
 public void the_data_is_in_the_ascending_order_on_the_table_based_on_program_name_column() {
-                         
+                  programpage.clickProgramNameDesc();       
 }
 
 @Then("The data get sorted on the table based on the program name column values in descending order")
 public void the_data_get_sorted_on_the_table_based_on_the_program_name_column_values_in_descending_order() throws InterruptedException {
-	programpage.clickProgramNameDesc();
-	programpage.DataTableDescendingSort();
-     
-}
+	programpage.programNameDescendingSort();
+	Loggerload.info("Program name is in Descending order");
+	
+     }
 
 @When("Admin clicks the sort icon of program Desc column")
 public void admin_clicks_the_sort_icon_of_program_desc_column() {
@@ -719,37 +719,43 @@ public void admin_clicks_the_sort_icon_of_program_desc_column() {
 
 @Then("The data get sorted on the table based on the program description column values in ascending order")
 public void the_data_get_sorted_on_the_table_based_on_the_program_description_column_values_in_ascending_order() {
-    
+	programpage.programDescriptionAscendingSort();
+	Loggerload.info("Program description is in Ascending order");
 }
 
 @Given("The data is in the ascending order on the table based on Program Description column")
 public void the_data_is_in_the_ascending_order_on_the_table_based_on_program_description_column() {
-    
+	programpage.clickProgramDescriptionDesc();
 }
 
 @Then("The data get sorted on the table based on the program description column values in descending order")
 public void the_data_get_sorted_on_the_table_based_on_the_program_description_column_values_in_descending_order() {
-   
+               
+               programpage.programDescriptionDescendingSort();
+               Loggerload.info("Program description is in Descending order");
 }
 
 @When("Admin clicks the sort icon of program Status column")
 public void admin_clicks_the_sort_icon_of_program_status_column() {
-   
+   programpage.clickProgramStatusAsec();
 }
 
 @Then("The data get sorted on the table based on the program status column values in ascending order")
 public void the_data_get_sorted_on_the_table_based_on_the_program_status_column_values_in_ascending_order() {
-    
+    programpage.programStatusAscendingSort();
+    Loggerload.info("Program Status is in Ascending order");
 }
 
 @Given("The data is in the ascending order on the table based on Program Status column")
 public void the_data_is_in_the_ascending_order_on_the_table_based_on_program_status_column() {
-    
+	programpage.clickProgramStatusDesc();
 }
 
 @Then("The data get sorted on the table based on the program status column values in descending order")
 public void the_data_get_sorted_on_the_table_based_on_the_program_status_column_values_in_descending_order() {
     
+    programpage.programStatusDescendingSort();
+    Loggerload.info("Program Status is in Descending order");
 }
 
 //===========feature12 steps==================
