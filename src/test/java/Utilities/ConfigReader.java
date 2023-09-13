@@ -38,6 +38,14 @@ import java.util.Properties;
 
 	}
 
+	public static String getbrowser() throws IOException
+
+	   {
+
+		   return init_prop().getProperty("browser");
+
+	   }
+
 	public static String getDashboardURL() throws IOException
 
 	   {
@@ -63,6 +71,14 @@ import java.util.Properties;
 
 	   }
 
+	public static String getForgotPasswordURL() throws IOException
+
+	   {
+
+		   return init_prop().getProperty("forgotpassword");
+
+	   }
+
 	
 	public static String classHeader() throws IOException
 
@@ -71,6 +87,21 @@ import java.util.Properties;
 		   return init_prop().getProperty("Actualheader");
 
 	   }
+	public static String gethomepagevalid() throws IOException
+
+	   {
+
+		   return init_prop().getProperty("homepagevaild");
+
+	   }
+	public static String gethomepageinvalid() throws IOException
+
+	   {
+
+		   return init_prop().getProperty("homepageinvalid");
+
+	   }
+
 
 	public static String classFields() throws IOException
 
@@ -151,6 +182,70 @@ import java.util.Properties;
 		   return init_prop().getProperty("ActualInput9");
 
 	   }
+	public static String getUsername() throws IOException
 
-	
+	   {
+
+		   return init_prop().getProperty("username");
+		  // return init_prop().getProperty("invalidusername");
+
+	   }
+
+	public static String getPassword() throws IOException
+
+	   {
+
+		   return init_prop().getProperty("password");
+		 //  return init_prop().getProperty("invalidpassword");
+
+	   }
+
+	public static String getInValidUsername() throws IOException
+
+	   {
+
+		  return init_prop().getProperty("Invalidusername");
+
+	   }
+
+	public static String getInvalidPassword() throws IOException
+
+	   {
+
+		  return init_prop().getProperty("Invalidpassword");
+
+	   }
+
+	public static String getValidUsername() throws IOException
+
+	   {
+
+		  return init_prop().getProperty("Validusername");
+
+	   }
+
+	public static String getvalidPassword() throws IOException
+
+	   {
+
+		  return init_prop().getProperty("Validpassword");
+
+	   }
+
+	public static String getvalidEmail() throws IOException
+
+	   {
+
+		  return init_prop().getProperty("ValidEmail");
+
+	   }
+	public static String getInvalidEmail() throws IOException
+
+	   {
+
+		  return init_prop().getProperty("InVaildEmail");
+
+	   }
+
+
 	}

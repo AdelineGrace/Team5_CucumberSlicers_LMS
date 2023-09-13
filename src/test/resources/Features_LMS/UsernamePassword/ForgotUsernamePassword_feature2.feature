@@ -16,7 +16,7 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-Feature: Forgot username /password
+Feature: Forgot usernamePassword2
 
 Background: Admin Clicks forgot username and password after reaching login page
 

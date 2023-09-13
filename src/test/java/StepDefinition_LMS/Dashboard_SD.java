@@ -1,6 +1,7 @@
 package StepDefinition_LMS;
 
 import java.io.IOException;
+
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
@@ -18,6 +19,9 @@ import Utilities.ConfigReader;
 import PageObject.Dashboard;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import static Utilities.ConfigReader.getValidUsername;
+import static Utilities.ConfigReader.getvalidPassword;
+
 public class Dashboard_SD {
 	
 
@@ -31,13 +35,15 @@ public class Dashboard_SD {
 public void admin_is_in_login_page() throws IOException {
 	
 	Dash_Page.Login(); 
-	
 	Assert.assertEquals("Login Page", Dash_Page.getCurrentPageTitle()); 
 	} 
 
 
 @When("Admin enter valid credentials  and clicks login button")
-public void admin_enter_valid_credentials_and_clicks_login_button(String user, String pwd) {
+public void admin_enter_valid_credentials_and_clicks_login_button(String user, String pwd) throws IOException {
+	String uname = getValidUsername(); 
+	String pwds = getvalidPassword(); 
+	
     Dash_Page.ValidCredentials(user, pwd);
 
 
@@ -126,25 +132,25 @@ public void admin_should_see_class_in_the_4th_place() {
 
 }
 
-@Then("Admin should see User in the 5th user")
+@Then("Admin should see User in the 5th place")
 public void admin_should_see_student_in_the_5th_user() {
 	Dash_Page.User_Positioning();
 
    }
 
-@Then("Admin should see Assingment in the 6th assignment")
+@Then("Admin should see Assingment in the 6th place")
 public void admin_should_see_student_in_the_6th_assignment() {
 	Dash_Page.Assignment_Positioning();;
 
 }
 
-@Then("Admin should see Attendance in the 7th attendance")
+@Then("Admin should see Attendance in the 7th place")
 public void admin_should_see_student_in_the_7th_attendance() {
 	Dash_Page.Attendance_Positioning();
 
 }
 
-@Then("Admin should see Logout in the 8th logout")
+@Then("Admin should see Logout in the 8th place")
 public void admin_should_see_student_in_the_8th_logout() {
 	Dash_Page.Logout_Positioning();
 

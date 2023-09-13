@@ -1,23 +1,24 @@
-Feature: Login page validation 
+Feature: Home Page Verification 
 
-#1
+
 Scenario: Verify admin is able to land on home page
 Given Admin launch the browser
 When Admin gives the correct LMS portal URL
 Then Admin should land on the home page
 
 
+
+
 Scenario: Verify admin is able to land on home page with invalid URL
 Given Admin launch the browser
 When Admin gives the invalid LMS portal URL
-Then Admin should recieve 404 page not found error 
-
+Then Admin should recieve https404 page not found error 
 
 
 Scenario: Verify for broken link
 Given Admin launch the browser
 When Admin gives the correct LMS portal URL
-Then HTTP response >= 400. Then the link is broken
+Then Admin should recieve https404 page not found error
 
 
 Scenario: Verify the text spelling in the page 
@@ -38,18 +39,15 @@ When Admin gives the correct LMS portal URL
 Then Admin should see logo is properly aligned
 
 
-
 Scenario: Verify login button is present
-
 Given Admin launch the browser
 When Admin gives the correct LMS portal URL
 Then Admin should see login button 
 
 
-
 Scenario: Verify login button is clickable
-
 Given Admin launch the browser
 When Admin gives the correct LMS portal URL
 Then Admin should able to click the Login button
+
 

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\indra\AppData\Local\Temp\testng-eclipse--18512517\testng-customsuite.xml</span>
+                    <span>C:\Users\indra\AppData\Local\Temp\testng-eclipse--389903972\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Default_suite" class="navigator-link ">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,56 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">0 methods,   </span>
+                    <span class="method-stats">8 methods, 8 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;verify broken link&quot;, &quot;Optional[Forgot username /password]&quot;)">runScenario("verify broken link", "Optional[Forgot username /password]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify text spelling&quot;, &quot;Optional[Forgot username /password]&quot;)">runScenario("Verify text spelling", "Optional[Forgot username /password]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify forgot username or password link&quot;, &quot;Optional[Forgot username /password]&quot;)">runScenario("Verify forgot username or password link", "Optional[Forgot username /password]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;verify input descriptive text for Email&quot;, &quot;Optional[Forgot username /password]&quot;)">runScenario("verify input descriptive text for Email", "Optional[Forgot username /password]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify email text in text field&quot;, &quot;Optional[Forgot username /password]&quot;)">runScenario("Verify email text in text field", "Optional[Forgot username /password]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify asterik near Email text&quot;, &quot;Optional[Forgot username /password]&quot;)">runScenario("Verify asterik near Email text", "Optional[Forgot username /password]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify the alignment of the send link button&quot;, &quot;Optional[Forgot username /password]&quot;)">runScenario("Verify the alignment of the send link button", "Optional[Forgot username /password]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify send link button is present&quot;, &quot;Optional[Forgot username /password]&quot;)">runScenario("Verify send link button is present", "Optional[Forgot username /password]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -104,10 +153,230 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Runner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;verify broken link&quot;, &quot;Optional[Forgot username /password]&quot;)">
+                  </a> <!-- runScenario("verify broken link", "Optional[Forgot username /password]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("verify broken link","Optional[Forgot username /password]")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Error] but found [Login Page]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinition_LMS.Dashboard_SD.admin_is_in_login_page(Dashboard_SD.java:35)
+	at ✽.Admin is in login page(file:///C:/Users/indra/eclipse-workspace/Team5_CucumberSlicers_LMS/src/test/resources/Features_LMS/UsernamePassword/ForgotUsernamePassword_feature1.feature:32)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify text spelling&quot;, &quot;Optional[Forgot username /password]&quot;)">
+                  </a> <!-- runScenario("Verify text spelling", "Optional[Forgot username /password]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify text spelling","Optional[Forgot username /password]")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Error] but found [Login Page]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinition_LMS.Dashboard_SD.admin_is_in_login_page(Dashboard_SD.java:35)
+	at ✽.Admin is in login page(file:///C:/Users/indra/eclipse-workspace/Team5_CucumberSlicers_LMS/src/test/resources/Features_LMS/UsernamePassword/ForgotUsernamePassword_feature1.feature:67)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify forgot username or password link&quot;, &quot;Optional[Forgot username /password]&quot;)">
+                  </a> <!-- runScenario("Verify forgot username or password link", "Optional[Forgot username /password]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify forgot username or password link","Optional[Forgot username /password]")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;Admin is in loginpage&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;Admin is in loginpage&quot;)
+public void admin_is_in_loginpage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;Admin clicks forgot username or password link&quot;)
+public void admin_clicks_forgot_username_or_password_link() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;Admin should land on forgot username or password page&quot;)
+public void admin_should_land_on_forgot_username_or_password_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;verify input descriptive text for Email&quot;, &quot;Optional[Forgot username /password]&quot;)">
+                  </a> <!-- runScenario("verify input descriptive text for Email", "Optional[Forgot username /password]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("verify input descriptive text for Email","Optional[Forgot username /password]")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Error] but found [Login Page]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinition_LMS.Dashboard_SD.admin_is_in_login_page(Dashboard_SD.java:35)
+	at ✽.Admin is in login page(file:///C:/Users/indra/eclipse-workspace/Team5_CucumberSlicers_LMS/src/test/resources/Features_LMS/UsernamePassword/ForgotUsernamePassword_feature1.feature:40)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify email text in text field&quot;, &quot;Optional[Forgot username /password]&quot;)">
+                  </a> <!-- runScenario("Verify email text in text field", "Optional[Forgot username /password]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify email text in text field","Optional[Forgot username /password]")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Error] but found [Login Page]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinition_LMS.Dashboard_SD.admin_is_in_login_page(Dashboard_SD.java:35)
+	at ✽.Admin is in login page(file:///C:/Users/indra/eclipse-workspace/Team5_CucumberSlicers_LMS/src/test/resources/Features_LMS/UsernamePassword/ForgotUsernamePassword_feature1.feature:46)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify asterik near Email text&quot;, &quot;Optional[Forgot username /password]&quot;)">
+                  </a> <!-- runScenario("Verify asterik near Email text", "Optional[Forgot username /password]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify asterik near Email text","Optional[Forgot username /password]")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Error] but found [Login Page]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinition_LMS.Dashboard_SD.admin_is_in_login_page(Dashboard_SD.java:35)
+	at ✽.Admin is in login page(file:///C:/Users/indra/eclipse-workspace/Team5_CucumberSlicers_LMS/src/test/resources/Features_LMS/UsernamePassword/ForgotUsernamePassword_feature1.feature:60)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify the alignment of the send link button&quot;, &quot;Optional[Forgot username /password]&quot;)">
+                  </a> <!-- runScenario("Verify the alignment of the send link button", "Optional[Forgot username /password]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify the alignment of the send link button","Optional[Forgot username /password]")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Error] but found [Login Page]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinition_LMS.Dashboard_SD.admin_is_in_login_page(Dashboard_SD.java:35)
+	at ✽.Admin is in login page(file:///C:/Users/indra/eclipse-workspace/Team5_CucumberSlicers_LMS/src/test/resources/Features_LMS/UsernamePassword/ForgotUsernamePassword_feature1.feature:75)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify send link button is present&quot;, &quot;Optional[Forgot username /password]&quot;)">
+                  </a> <!-- runScenario("Verify send link button is present", "Optional[Forgot username /password]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify send link button is present","Optional[Forgot username /password]")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Error] but found [Login Page]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinition_LMS.Dashboard_SD.admin_is_in_login_page(Dashboard_SD.java:35)
+	at ✽.Admin is in login page(file:///C:/Users/indra/eclipse-workspace/Team5_CucumberSlicers_LMS/src/test/resources/Features_LMS/UsernamePassword/ForgotUsernamePassword_feature1.feature:53)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\indra\AppData\Local\Temp\testng-eclipse--18512517\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\indra\AppData\Local\Temp\testng-eclipse--389903972\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -140,6 +409,14 @@
             <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Default_suite" class="panel">
@@ -156,12 +433,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(0);
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'Runner.TestRunner')
+data.setCell(0, 3, 817);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'Runner.TestRunner')
+data.setCell(1, 3, 465);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'Runner.TestRunner')
+data.setCell(2, 3, 445);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'Runner.TestRunner')
+data.setCell(3, 3, 407);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'Runner.TestRunner')
+data.setCell(4, 3, 400);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'Runner.TestRunner')
+data.setCell(5, 3, 391);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'Runner.TestRunner')
+data.setCell(6, 3, 384);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'Runner.TestRunner')
+data.setCell(7, 3, 347);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -189,14 +498,60 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">Runner.TestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">setUpClass(org.testng.TestRunner@e04ccf8)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@141229f6)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify forgot username or password link", "Optional[Forgot username /password]")</span>
+                <span class="method-start">2852 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("verify broken link", "Optional[Forgot username /password]")</span>
+                <span class="method-start">3322 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("verify input descriptive text for Email", "Optional[Forgot username /password]")</span>
+                <span class="method-start">4142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify email text in text field", "Optional[Forgot username /password]")</span>
+                <span class="method-start">4552 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify send link button is present", "Optional[Forgot username /password]")</span>
+                <span class="method-start">4900 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify asterik near Email text", "Optional[Forgot username /password]")</span>
+                <span class="method-start">5285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify text spelling", "Optional[Forgot username /password]")</span>
+                <span class="method-start">5677 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify the alignment of the send link button", "Optional[Forgot username /password]")</span>
+                <span class="method-start">6124 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">391 ms</span>
+                <span class="method-start">6527 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

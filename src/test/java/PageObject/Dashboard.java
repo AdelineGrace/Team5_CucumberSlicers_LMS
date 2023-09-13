@@ -2,6 +2,7 @@ package PageObject;
 
 import java.net.HttpURLConnection;
 
+
 import java.net.URL;
 
 import java.sql.DriverManager;
@@ -56,17 +57,11 @@ public class Dashboard {
 
 		
 @FindBy(id ="id_username") WebElement username;
-
 @FindBy(id ="id_password") WebElement password;
-
 @FindBy(xpath = "/html/body/div[2]/div/div[2]/form/input[4]")WebElement Login;
-
 @FindBy(id = "Header") WebElement header;
-
 @FindBy(id = "LMS Title") WebElement LMSTitle;
-
 @FindBy(id = "Student") WebElement Student;
-
 @FindBy(id = "Program") WebElement Program;
 @FindBy(id = "Batch") WebElement Batch;
 @FindBy(id = "Class") WebElement Class;
@@ -90,10 +85,10 @@ public String getCurrentPageTitle() {
 	 return driver.getTitle().trim();
 	}
 
-public void ValidCredentials(String user, String pwd) {
+public void ValidCredentials(String uname, String pwds) {
 
-		username.sendKeys(user);
-		password.sendKeys(pwd);
+		username.sendKeys(uname);
+		password.sendKeys(pwds);
 		Login.click();
 }
 		
@@ -118,6 +113,9 @@ public void ValidCredentials(String user, String pwd) {
 		}
 
 		public void verifyLink()throws IOException {
+			
+			Loggerload.info("Broken Links verified" );
+
 			String URL = ConfigReader.getloginURL(); 
 
 			try {
