@@ -29,6 +29,34 @@ import java.util.Properties;
 	   {
 		   return init_prop().getProperty("classpage");
 	   }
+	public static String getStudentURL() throws IOException
+	   {
+		   return init_prop().getProperty("studentpage");
+	   }
+	public static String getProgramURL() throws IOException
+	   {
+		   return init_prop().getProperty("programpage");
+	   }
+	public static String getBatchURL() throws IOException
+	   {
+		   return init_prop().getProperty("batchpage");
+	   }
+	public static String getAssignmentURL() throws IOException
+	   {
+		   return init_prop().getProperty("assignmentpage");
+	   }
+	public static String getUserURL() throws IOException
+	   {
+		   return init_prop().getProperty("userpage");
+	   }
+	public static String getAttendanceURL() throws IOException
+	   {
+		   return init_prop().getProperty("attendancepage");
+	   }
+	public static String getLoginURL() throws IOException
+	   {
+		   return init_prop().getProperty("loginpage");
+	   }
 	public static String getAddClassURL() throws IOException
 	   {
 		   return init_prop().getProperty("addclasspage");
@@ -96,5 +124,33 @@ import java.util.Properties;
 	public static String BatchIdError() throws IOException
 	   {
 		   return init_prop().getProperty("BatchIdError");
+	   }
+	public static String ClassNoError() throws IOException
+	   {
+		   return init_prop().getProperty("ClassNoError");
+	   }
+	public static String ClassDateError() throws IOException
+	   {
+		   return init_prop().getProperty("ClassDateError");
+	   }
+	public static String StaffIdError() throws IOException
+	   {
+		   return init_prop().getProperty("StaffIdError");
+	   }
+	public static String PassedDateError() throws IOException
+	   {
+		   return init_prop().getProperty("PassedDateError");
+	   }
+	public static String ExpectedDate() throws IOException
+	   {
+		   return init_prop().getProperty("expectedDate");
+	   }
+	public static String MonthDatePicker() throws IOException
+	   {
+		   return init_prop().getProperty("expectedMonthDatePicker");
+	   }
+	public static String DeleteSuccessMessage() throws IOException
+	   {
+		   return init_prop().getProperty("DeleteSuccessMessage");
 	   }
 	}

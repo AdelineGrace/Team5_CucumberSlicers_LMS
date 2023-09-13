@@ -110,3 +110,263 @@
 ['INFO ]2023-09-09 20:51:04,898(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
 ['INFO ]2023-09-10 15:23:46,875(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
 ['INFO ]2023-09-10 15:23:47,456(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.chrome.driver as C:\Users\shaun\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+['INFO ]2023-09-11 20:58:59,991(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+['INFO ]2023-09-11 20:59:00,071(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.chrome.driver as C:\Users\shaun\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+['ERROR]2023-09-11 20:59:03,975(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-09-11 20:59:04,801(yyyy-MM-ddHH:mm:ss.SSS][main]io.qameta.allure.AllureLifecycle1)-Could not add attachment: no test is running
+['ERROR]2023-09-11 20:59:04,892(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-09-11 20:59:05,054(yyyy-MM-ddHH:mm:ss.SSS][main]io.qameta.allure.AllureLifecycle1)-Could not add attachment: no test is running
+['ERROR]2023-09-11 20:59:05,117(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-09-11 20:59:05,286(yyyy-MM-ddHH:mm:ss.SSS][main]io.qameta.allure.AllureLifecycle1)-Could not add attachment: no test is running
+['ERROR]2023-09-11 20:59:05,351(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-09-11 20:59:05,485(yyyy-MM-ddHH:mm:ss.SSS][main]io.qameta.allure.AllureLifecycle1)-Could not add attachment: no test is running
+['ERROR]2023-09-11 20:59:05,558(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-09-11 20:59:05,826(yyyy-MM-ddHH:mm:ss.SSS][main]io.qameta.allure.AllureLifecycle1)-Could not add attachment: no test is running
+['ERROR]2023-09-11 20:59:05,888(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-09-11 20:59:06,059(yyyy-MM-ddHH:mm:ss.SSS][main]io.qameta.allure.AllureLifecycle1)-Could not add attachment: no test is running
+['ERROR]2023-09-11 20:59:06,112(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-09-11 20:59:06,273(yyyy-MM-ddHH:mm:ss.SSS][main]io.qameta.allure.AllureLifecycle1)-Could not add attachment: no test is running
+['ERROR]2023-09-11 20:59:06,334(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-09-11 20:59:06,495(yyyy-MM-ddHH:mm:ss.SSS][main]io.qameta.allure.AllureLifecycle1)-Could not add attachment: no test is running
+['ERROR]2023-09-11 20:59:06,522(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-09-11 20:59:06,701(yyyy-MM-ddHH:mm:ss.SSS][main]io.qameta.allure.AllureLifecycle1)-Could not add attachment: no test is running
+['ERROR]2023-09-11 20:59:06,736(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-09-11 20:59:06,962(yyyy-MM-ddHH:mm:ss.SSS][main]io.qameta.allure.AllureLifecycle1)-Could not add attachment: no test is running
+['ERROR]2023-09-11 20:59:07,005(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-09-11 20:59:07,218(yyyy-MM-ddHH:mm:ss.SSS][main]io.qameta.allure.AllureLifecycle1)-Could not add attachment: no test is running
+['ERROR]2023-09-11 20:59:07,298(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-09-11 20:59:07,520(yyyy-MM-ddHH:mm:ss.SSS][main]io.qameta.allure.AllureLifecycle1)-Could not add attachment: no test is running
+['ERROR]2023-09-11 20:59:07,622(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-09-11 20:59:07,854(yyyy-MM-ddHH:mm:ss.SSS][main]io.qameta.allure.AllureLifecycle1)-Could not add attachment: no test is running
+['ERROR]2023-09-11 20:59:07,942(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-09-11 20:59:08,150(yyyy-MM-ddHH:mm:ss.SSS][main]io.qameta.allure.AllureLifecycle1)-Could not add attachment: no test is running
+['ERROR]2023-09-11 20:59:08,184(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-09-11 20:59:08,367(yyyy-MM-ddHH:mm:ss.SSS][main]io.qameta.allure.AllureLifecycle1)-Could not add attachment: no test is running
+['ERROR]2023-09-11 20:59:08,420(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-09-11 20:59:08,618(yyyy-MM-ddHH:mm:ss.SSS][main]io.qameta.allure.AllureLifecycle1)-Could not add attachment: no test is running
+['ERROR]2023-09-11 20:59:08,651(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-09-11 20:59:08,786(yyyy-MM-ddHH:mm:ss.SSS][main]io.qameta.allure.AllureLifecycle1)-Could not add attachment: no test is running
+['ERROR]2023-09-11 20:59:08,840(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-09-11 20:59:08,992(yyyy-MM-ddHH:mm:ss.SSS][main]io.qameta.allure.AllureLifecycle1)-Could not add attachment: no test is running
+['INFO ]2023-09-11 21:12:37,491(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+['INFO ]2023-09-11 21:12:37,524(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.chrome.driver as C:\Users\shaun\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+['INFO ]2023-09-11 23:56:04,994(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+['INFO ]2023-09-11 23:56:05,026(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.chrome.driver as C:\Users\shaun\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+['INFO ]2023-09-11 23:56:07,537(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-11 23:56:07,600(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-11 23:56:07,628(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-12 10:06:24,565(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+['INFO ]2023-09-12 10:06:24,586(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.chrome.driver as C:\Users\shaun\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+['INFO ]2023-09-12 10:06:27,040(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-12 10:06:27,065(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-12 10:06:27,092(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-12 10:06:27,110(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Admin is in delete alert
+['INFO ]2023-09-12 10:06:27,192(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Admin is in delete alert
+['INFO ]2023-09-12 10:06:27,239(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Admin is in delete alert
+['INFO ]2023-09-12 10:06:27,278(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Admin is in delete alert
+['WARN ]2023-09-12 10:06:27,372(yyyy-MM-ddHH:mm:ss.SSS][AsyncHttpClient-1-4]org.asynchttpclient.netty.handler.WebSocketHandler1)-onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:1589) [?:?]
+['INFO ]2023-09-12 11:14:08,959(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+['INFO ]2023-09-12 11:14:08,989(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.chrome.driver as C:\Users\shaun\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+['INFO ]2023-09-12 11:14:11,222(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-12 11:14:11,251(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-12 13:44:26,210(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+['INFO ]2023-09-12 13:44:26,238(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.chrome.driver as C:\Users\shaun\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+['INFO ]2023-09-12 13:44:28,561(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-12 13:44:38,866(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-12 13:44:49,070(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-12 13:44:59,302(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-12 13:45:09,552(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-12 13:45:19,804(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-12 13:45:30,112(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-12 13:50:41,429(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+['INFO ]2023-09-12 13:50:41,453(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.chrome.driver as C:\Users\shaun\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+['INFO ]2023-09-12 13:50:43,522(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-12 13:50:53,801(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-12 13:51:04,050(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-12 13:51:14,340(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-12 13:51:24,586(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-12 13:51:34,813(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-12 13:51:45,093(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-12 13:51:55,293(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-12 22:44:25,068(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+['INFO ]2023-09-12 22:44:25,099(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.chrome.driver as C:\Users\shaun\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+['INFO ]2023-09-12 22:44:27,754(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-12 22:44:27,784(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-12 22:44:27,805(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-12 22:44:27,830(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-12 22:44:27,849(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-12 22:44:27,869(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-12 22:44:27,886(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-12 22:59:02,256(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+['INFO ]2023-09-12 22:59:02,364(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.chrome.driver as C:\Users\shaun\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+['INFO ]2023-09-12 22:59:05,218(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-12 22:59:15,455(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-12 22:59:15,504(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-12 22:59:15,553(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-12 22:59:15,613(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-12 22:59:15,671(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-12 22:59:15,693(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-12 23:59:34,050(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+['INFO ]2023-09-12 23:59:34,058(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+['INFO ]2023-09-12 23:59:34,060(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+['INFO ]2023-09-12 23:59:34,060(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+['INFO ]2023-09-12 23:59:34,061(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+['INFO ]2023-09-12 23:59:34,061(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+['INFO ]2023-09-12 23:59:34,064(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+['INFO ]2023-09-12 23:59:34,064(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+['INFO ]2023-09-12 23:59:34,066(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+['INFO ]2023-09-12 23:59:34,076(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+['INFO ]2023-09-12 23:59:34,078(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+['INFO ]2023-09-12 23:59:34,079(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+['INFO ]2023-09-12 23:59:34,080(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+['INFO ]2023-09-12 23:59:34,080(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+['INFO ]2023-09-12 23:59:34,082(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+['INFO ]2023-09-12 23:59:34,082(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+['INFO ]2023-09-12 23:59:34,084(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+['INFO ]2023-09-12 23:59:34,084(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+['INFO ]2023-09-12 23:59:34,085(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+['INFO ]2023-09-12 23:59:34,085(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+['INFO ]2023-09-12 23:59:34,086(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+['INFO ]2023-09-12 23:59:34,086(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+['INFO ]2023-09-12 23:59:34,087(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+['INFO ]2023-09-12 23:59:34,087(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+['INFO ]2023-09-12 23:59:34,093(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+['INFO ]2023-09-12 23:59:34,093(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+['INFO ]2023-09-12 23:59:34,094(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+['INFO ]2023-09-12 23:59:34,094(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+['INFO ]2023-09-12 23:59:34,095(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+['INFO ]2023-09-12 23:59:34,095(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+['INFO ]2023-09-12 23:59:34,103(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[TestNG] Running:
+  C:\Users\shaun\AppData\Local\Temp\testng-eclipse--643105205\testng-customsuite.xml
+
+['INFO ]2023-09-12 23:59:34,124(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+['INFO ]2023-09-12 23:59:36,379(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+['INFO ]2023-09-12 23:59:36,405(yyyy-MM-ddHH:mm:ss.SSS][main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.chrome.driver as C:\Users\shaun\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+['INFO ]2023-09-12 23:59:40,028(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-12 23:59:50,545(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:00:00,843(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:00:11,645(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:00:23,266(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:00:34,032(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:00:44,680(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:00:55,201(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:01:05,581(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:01:15,813(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:01:26,338(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:01:37,106(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:01:47,990(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:01:58,819(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:02:09,464(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:02:20,115(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:02:30,399(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:02:40,493(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:02:50,568(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:03:00,692(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:03:10,771(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:03:20,819(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:03:30,882(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:03:40,994(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:03:51,079(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:03:51,080(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Search Box Validation with Batch Id 
+['INFO ]2023-09-13 00:04:02,774(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:04:13,895(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:04:13,896(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Search Box Validation with Class No
+['INFO ]2023-09-13 00:04:25,127(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:04:25,127(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Displaying Empty Data Table
+['INFO ]2023-09-13 00:04:36,304(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:04:36,305(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Search Box Validation with Class Topic
+['INFO ]2023-09-13 00:04:47,486(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:04:47,486(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Displaying Empty Data Table
+['INFO ]2023-09-13 00:04:58,652(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:04:58,652(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Search Box Validation with Staff Id
+['INFO ]2023-09-13 00:05:09,860(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:05:09,860(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Displaying Empty Data Table
+['INFO ]2023-09-13 00:05:21,034(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:05:21,034(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Search Box Validation with Staff Id
+['INFO ]2023-09-13 00:05:32,176(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:05:32,176(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Search Box Validation with Staff Id
+['INFO ]2023-09-13 00:05:43,345(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:05:43,345(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Navigating to Add Class page
+['INFO ]2023-09-13 00:05:53,419(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:05:53,419(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Navigating to Add Class page
+['INFO ]2023-09-13 00:06:03,487(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:06:03,488(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Navigating to Add Class page
+['INFO ]2023-09-13 00:06:13,559(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:06:13,562(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Navigating to Add Class page
+['INFO ]2023-09-13 00:06:23,666(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:06:23,671(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Navigating to Add Class page
+['INFO ]2023-09-13 00:06:33,731(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:06:33,731(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Navigating to Add Class page
+['INFO ]2023-09-13 00:06:43,810(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:06:43,820(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Navigating to Add Class page
+['INFO ]2023-09-13 00:06:53,939(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:06:53,939(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Navigating to Add Class page
+['INFO ]2023-09-13 00:07:04,035(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:07:04,037(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Navigating to Add Class page
+['INFO ]2023-09-13 00:07:15,031(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:07:15,032(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin clicks Edit Button
+['INFO ]2023-09-13 00:07:15,107(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:07:15,123(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin clicks Edit Button from one row in data table
+['INFO ]2023-09-13 00:07:15,203(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is in  Edit class detail popup window
+['INFO ]2023-09-13 00:07:25,281(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is in  Edit class detail popup window
+['INFO ]2023-09-13 00:07:35,371(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is in  Edit class detail popup window
+['INFO ]2023-09-13 00:07:45,489(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is in  Edit class detail popup window
+['INFO ]2023-09-13 00:07:55,581(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is in  Edit class detail popup window
+['INFO ]2023-09-13 00:08:05,672(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is in  Edit class detail popup window
+['INFO ]2023-09-13 00:08:15,720(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is in  Edit class detail popup window
+['INFO ]2023-09-13 00:08:25,810(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is in  Edit class detail popup window
+['INFO ]2023-09-13 00:08:35,873(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is in  Edit class detail popup window
+['INFO ]2023-09-13 00:08:45,962(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is in  Edit class detail popup window
+['INFO ]2023-09-13 00:08:56,087(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is in  Edit class detail popup window
+['INFO ]2023-09-13 00:09:06,197(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:09:06,197(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Admin clicks Delete button
+['INFO ]2023-09-13 00:09:06,259(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:09:06,259(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Admin clicks Delete button
+['INFO ]2023-09-13 00:09:06,308(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:09:06,308(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Admin clicks Delete button
+['INFO ]2023-09-13 00:09:06,359(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Admin is in delete alert
+['INFO ]2023-09-13 00:09:06,401(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Admin is in delete alert
+['INFO ]2023-09-13 00:09:06,458(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:09:06,464(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Delete All icon Enabled
+['INFO ]2023-09-13 00:09:06,528(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:09:06,528(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Delete All icon Enabled
+['INFO ]2023-09-13 00:09:06,584(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:09:06,584(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Multiple Check Box Enabled
+['INFO ]2023-09-13 00:09:06,631(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Admin is in delete alert
+['INFO ]2023-09-13 00:09:06,678(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Admin is in delete alert
+['INFO ]2023-09-13 00:09:06,718(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Admin is in delete alert
+['INFO ]2023-09-13 00:09:06,766(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Admin is in delete alert
+['INFO ]2023-09-13 00:09:06,818(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:09:06,818(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Sorted in Descending Order
+['INFO ]2023-09-13 00:09:06,876(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Admin is on the Manage Class Page.Expected Url: https://lms.herokuapp.com/class
+['INFO ]2023-09-13 00:09:07,689(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:09:18,077(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:09:28,402(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:09:39,002(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:09:49,451(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:10:00,097(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:10:10,957(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:10:21,411(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-09-13 00:10:32,047(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)- Adding 6 new classes
+['INFO ]2023-09-13 00:10:40,680(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.internal.ExitCodeListener@14060410: 3 ms
+['INFO ]2023-09-13 00:10:40,752(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@66978c15: 72 ms
+['INFO ]2023-09-13 00:10:40,930(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.jq.Main@4505ec36: 176 ms
+['INFO ]2023-09-13 00:10:40,949(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.FailedReporter@e74300b: 19 ms
+['INFO ]2023-09-13 00:10:41,070(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.XMLReporter@5b132063: 121 ms
+['INFO ]2023-09-13 00:10:41,190(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.EmailableReporter2@3304362e: 120 ms
+['INFO ]2023-09-13 00:10:41,364(yyyy-MM-ddHH:mm:ss.SSS][main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@31b4c003: 174 ms
