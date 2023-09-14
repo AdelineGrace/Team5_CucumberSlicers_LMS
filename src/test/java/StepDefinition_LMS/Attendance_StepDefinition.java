@@ -29,15 +29,15 @@ public class Attendance_StepDefinition {
 
 	ConfigReader Config = new ConfigReader();
 
-	@Given("Admin is on dashboard page after Login")
-	public void admin_is_on_dashboard_page_after_login() throws IOException {
+	@Given("Admin is in dashboard page after Login")
+	public void admin_is_in_dashboard_page_after_login() throws IOException {
 		DriverFactory.getDriver().get(ConfigReader.getDashboardURL());
 		Loggerload.info("Website Opened");
 
 	}
 
-	@When("Admin clicks {string} on the navigation bar")
-	public void admin_clicks_on_the_navigation_bar(String string) throws InterruptedException {
+	@When("Admin clicks Assignment in the navigation bar")
+	public void admin_clicks_assignment_in_the_navigation_bar() throws InterruptedException {
 		Attendancepage.Click_Attendance();
 	}
 

@@ -48,35 +48,20 @@ import static Utilities.ConfigReader.getvalidPassword;
 
 public class Dashboard_StepDefinition {
 
-	
-
-
-
 	WebDriver driver;
 
-
-
-	private Dashboard_PageObject Dash_Page = new Dashboard_PageObject(DriverFactory.getDriver());
-
-
-
-
-
-
+private Dashboard_PageObject Dash_Page = new Dashboard_PageObject(DriverFactory.getDriver());
 
 @Given("Admin is in login page")
 
 public void admin_is_in_login_page() throws IOException {
 
-	
 
 	Dash_Page.Login(); 
 
 	Assert.assertEquals("Login Page", Dash_Page.getCurrentPageTitle()); 
 
 	} 
-
-
 
 
 
@@ -94,11 +79,7 @@ public void admin_enter_valid_credentials_and_clicks_login_button(String user, S
 
 
 
-
-
-    }
-
-
+  }
 
 @Then("Admin should see manage program as header")
 

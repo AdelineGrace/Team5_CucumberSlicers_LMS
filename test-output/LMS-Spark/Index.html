@@ -5,13 +5,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Extent</title>
+<title></title>
 <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
 <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
 <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
-<style type="text/css"></style></head><body class="spa -report dark">
+<style type="text/css"></style></head><body class="spa -report standard">
   <div class="app">
     <div class="layout">
 <div class="header navbar">
@@ -32,42 +32,68 @@
 </ul>
 <ul class="nav-right">
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">LMS</span></a>
+<a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Sept 14, 2023 11:10:33 a.m.</span></a>
+<a href="#"><span class="badge badge-primary">Sept 14, 2023 11:39:07 a.m.</span></a>
 </li>
 </ul>
 </div>
 </div><div class="side-nav">
 <div class="side-nav-inner">
 <ul class="side-nav-menu">
-<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
-<a id="nav-dashboard" class="dropdown-toggle" href="#">
-<span class="ico"><i class="fa fa-bar-chart"></i></span>
-</a>
-</li>
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
 </a>
 </li>
 </ul>
 </div>
 </div>      <div class="vcontainer">
         <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
 <div class="container-fluid p-4 view dashboard-view">
 <div class="row">
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Sept 14, 2023 11:10:33 a.m.</h3>
+<h3>Sept 14, 2023 11:39:07 a.m.</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Sept 14, 2023 11:11:04 a.m.</h3>
+<h3>Sept 14, 2023 11:39:42 a.m.</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -120,28 +146,6 @@ var timeline = {
 };
 </script>
 <div class="row">
-<div class="col-lg-6 col-md-12 sysenv-container">
-<div class="card">
-<div class="card-header"><p>System/Environment</p></div>
-<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
-<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
-<tbody>
-<tr>
-<td>AppName</td>
-<td>LMS</td>
-</tr>
-<tr>
-<td>user</td>
-<td>Team5</td>
-</tr>
-<tr>
-<td>build</td>
-<td>11</td>
-</tr>
-</tbody>
-</table></div>
-</div>
-</div>
 </div>
 </div>
 <script>
@@ -170,33 +174,7 @@ warningEvents: 0,
 skipEvents: 0,
 infoEvents: 0
 };
-</script><div class="test-wrapper row view test-view">
-  <div class="test-list">
-    <div class="test-list-tools">
-<ul class="tools pull-left">
-<li><a href="#"><span class="font-size-14">Tests</span></a></li>
-</ul>
-<ul class="tools text-right">
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
-<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<div class="dropdown-divider"></div>
-<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
-</ul>
-</li>
-</ul>
-</div>    <div class="test-list-wrapper scrollable">
-      <ul class="test-list-item">
-      </ul>
-    </div>
-  </div>
-<div class="test-content scrollable">
-<div class="test-content-tools">
-<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
-</div>
-<div class="test-content-detail"><div class="detail-body"></div></div>
-</div></div>
-        </div>
+</script>        </div>
       </div>
     </div>
   </div>
