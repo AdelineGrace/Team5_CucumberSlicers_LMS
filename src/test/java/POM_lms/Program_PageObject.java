@@ -17,7 +17,7 @@ public class Program_PageObject {
 	
 	static WebDriver driver;
 	
-	//private static final Logger LOG= LogManager.getLogger(Program_PageObject.class);
+	//Private static final Logger LOG= LogManager.getLogger(Program_PageObject.class);
 	By program_button = By.xpath("//input[text='Program']");
 	By new_program = By.xpath("//button[@type='button'][text()='Add New']");
 	By delete_button_left = By.xpath("//*[@id=’delete’]/tbody/tr[2]/td[11]");

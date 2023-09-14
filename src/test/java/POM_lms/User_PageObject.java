@@ -12,6 +12,8 @@ import org.testng.Assert;
 public class User_PageObject {
 	WebDriver driver;
 
+	
+	//User file
 	By User = By.xpath("//input[text='user']");
 	By show_entries = By.xpath("//input[text='In total there are 2 users']");
 	By userId = By.xpath("//*[@id=’userId’]/tbody/tr[1]/td[1]");
