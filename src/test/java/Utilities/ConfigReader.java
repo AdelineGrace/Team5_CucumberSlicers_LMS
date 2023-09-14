@@ -21,6 +21,15 @@ import java.util.Properties;
 		
 		return prop;
 	}
+	/*public static void setBrowserType(String browser)
+	{
+		browserType = browser;
+	}
+	public static String getBrowserType() 
+	{	
+	return browserType;
+			
+	}*/
 	public static String getStudentTitle() throws IOException
 	   {
 		   return init_prop().getProperty("expectedTitle");
